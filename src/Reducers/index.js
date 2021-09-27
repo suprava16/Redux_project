@@ -1,7 +1,7 @@
-import {combineReducer} from "redux"
+import {combineReducers} from "redux"
 import { CounterReducer } from "./CounterReducer"
 
-export default combineReducer({
+export default combineReducers({
   CounterReducer,
 
 })
